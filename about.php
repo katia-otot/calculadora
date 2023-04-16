@@ -10,12 +10,11 @@
     <nav>
         <ul>
             <li><a href="formulario.html">Calculadora</a></li>
-            <li><a href="about.php">About</a></li>
+            <li><a href="pi.php">Número pi</a></li>
         </ul>
     </nav>
     </body>
 </html>
 <?php
-    $M_PI = 3.14159265359;
-    echo "<p>Número pi: $M_PI <p>";
-
+    $creadores = ['Katia Gadea'];
+    echo "<p>Creador de la pagina web: ". $creadores[0]." <p>";
