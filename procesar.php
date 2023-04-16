@@ -33,6 +33,7 @@ if(isset($numero1, $numero2) & !empty($numero1) & !empty($numero2)) {
             break;
     }
 }
+
 else {
     echo "<p> Faltan completar datos <p>";
 }
